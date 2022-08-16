@@ -100,7 +100,7 @@
         .MyMarketingPortfolio .section:nth-child(6){
             background-color: #D0DDFC;
         }
-        /*Edit Text Blocks h1, h2, h3, p*/
+        /*Edit Text Blocks h1*/
         h1 { 
             color: white;
             font-weight: bold;
@@ -115,8 +115,9 @@
             }  
         }
         .right-h1 {
+            float: right;
             max-width: 35%;
-            margin-right: 80px;
+            margin-right: 10vh;
             text-align: right;
         }
         @media screen and (max-width: 480px){
@@ -124,6 +125,7 @@
                 max-width: 80%;
             }  
         }
+        /*Edit Text Blocks h3*/
         h3 {
             color: white;
             font-weight: bold;
@@ -136,6 +138,21 @@
                 max-width: 80%;
                 margin-top: 2.5vh;
                 margin-left: 5vh;
+            }  
+        }
+        .right-h3 {
+            color: white;
+            font-weight: bold;
+            font-size: 17px;
+            margin-top: 20px;
+            float: right;
+            max-width: 35%;
+            margin-right: 10vh;
+            text-align: right;
+        }
+        @media screen and (max-width: 480px){
+            .right-h3 {
+                max-width: 80%;
             }  
         }
         .text1 {
@@ -154,6 +171,7 @@
                 max-width: 70%;
             }
         }
+        /*Edit Text Blocks p*/
         p {
             color: #DED4FA;
             margin-top: 5px;
@@ -164,8 +182,8 @@
         .right-column {
             float: right;
             color: #DED4FA;
-            margin-top: 50px;
-            margin-right: 80px;
+            margin-top: 5px;
+            margin-right: 10vh;
             max-width: 35%;
             font-size: 14px;
             text-align: right;
@@ -173,7 +191,7 @@
         @media screen and (max-width: 480px){
             .right-column {
                 max-width: 80%;
-                margin-top: 20vh;
+                margin-top: 10px;
                 margin-left: 5vh;
             }  
         }
@@ -190,9 +208,11 @@
                 margin-left: 5vh;
             }  
         }
+        /*Edit List Text Blocks*/
         ul {
+            float: left;
             color: #DED4FA;
-            margin-top: 200px;
+            margin-top: 10px;
             margin-left: 80px;
             max-width: 25%;
             font-size: 14px;
@@ -242,7 +262,7 @@
             color: white;
         }
         .socialicons {
-            margin-top: -120px;
+            margin-top: 20px;
             margin-left: -60px;
         }
         @media screen and (max-width: 480px){
@@ -285,6 +305,7 @@
                                         <br></br>
                                     <li>The Financial District in Manhattan has the highest number of listings; nevertheless, the sum of listing prices per night is approx. 1/3 of the total in Williamsburg</li>
                         </ul></p>
+                    <br></br>
                 </div>
             </section>
             <section id="marketing" class="section">
@@ -329,7 +350,8 @@
                     <br></br>
                         <img class="left-align", src="images/Portfolio x GitHub-6.png">   
                              <h1 class="right-h1">Back Market | SEO Italy</h1>
-                                 <p class="right-column">To implement a backlink strategy for Italy, I extracted a list of competing websites (from an SEO perspective) from Ahrefs, and considered their referring domains to find the most relevant media to reach out to for a guest post. After extracting the data, I performed a qualitative analysis of the referring domains I previously identified. Based on their metrics (i.e. domain rating, backlink history) and organic keywords, I selected a series of media to contact and briefed them. Each time, I would customize the creative brief according to the specific backlink needed each time, and perform a keyword analysis to identify the best anchor texts for the link<br></br> I came up with the idea of a topic cluster on gifts for new graduates when checking the organic keywords of a buying guide from my Xmas cluster. I was assessing the ranking performance of my very first topic cluster at Back Market, and I realized that this specific buying guide started ranking in the top 10 for a series of long-tail keywords related to gifts - and kept ranking in the same positions even after the holidays. I realized there could have been potential for Back Market Italy to come up in Google searches related to gift ideas through original content optimized to rank for context-related queries and keywords (such as eco-friendly gifts, gift ideas and matching terms). Taking into account that our biggest segment of the target demographic is users aged between 18 and 25, I thought of gifts for new grads as an SEO cluster (and related event page)</p>
+                                <h3 class="right-h3">BACKLINK STRATEGY & MEDIA OUTREACH</h3>
+                                    <p class="right-column">To implement a backlink strategy for Italy, I extracted a list of competing websites (from an SEO perspective) from Ahrefs, and considered their referring domains to find the most relevant media to reach out to for a guest post. After extracting the data, I performed a qualitative analysis of the referring domains I previously identified. Based on their metrics (i.e. domain rating, backlink history) and organic keywords, I selected a series of media to contact and briefed them. Each time, I would customize the creative brief according to the specific backlink needed each time, and perform a keyword analysis to identify the best anchor texts for the link</p><br></br><h3 class="right-h3">SOCIAL MEDIA ENGAGEMENT & KPIs</h3><p class="right-column">I came up with the idea of a topic cluster on gifts for new graduates when checking the organic keywords of a buying guide from my Xmas cluster. I was assessing the ranking performance of my very first topic cluster at Back Market, and I realized that this specific buying guide started ranking in the top 10 for a series of long-tail keywords related to gifts - and kept ranking in the same positions even after the holidays. I realized there could have been potential for Back Market Italy to come up in Google searches related to gift ideas through original content optimized to rank for context-related queries and keywords (such as eco-friendly gifts, gift ideas and matching terms). Taking into account that our biggest segment of the target demographic is users aged between 18 and 25, I thought of gifts for new grads as an SEO cluster (and related event page)</p>
                 </div>
             </section>
             <section id="seo3" class="section">
@@ -338,7 +360,7 @@
                         <br></br>
                             <img class="right-align", src="images/Portfolio x GitHub-7.png">
                                 <br></br>
-                        <p class="violet">After an in-depth keyword analysis on gifts for new grads, I found out that there are two peaks throughout the year when the search volume doubles the annual average reaching approximately 12k both in July and October. In Italy, these are the two most common times in the year for graduations, and the seasonality of the search volume is key to increasing organic traffic in the month of July (when the website traffic is at its lowest); whereas it would bring additional traffic in October when sessions start increasing before Black Friday. Also, I found out that the highest-ranking pages in the SERP are blog articles about gift ideas, but the content is unrelated to tech devices. And I realized that there's great business potential with very little SEO competition<br></br>A topic cluster about gifts for new graduates allows for a much wider semantic network as compared to a topic cluster that focuses on a specific product. Similarly to clusters built for events throughout the year, from an SEO perspective this specific type of cluster allows for keyword diversification, and at the same time, from a marketing standpoint, it represents a great opportunity for product diversification. In this case, articles and buying guides can be customized depending on the different professional pathways or studies taken up by graduating students. Especially from an SEO perspective, the potential for original and diversified SEO content on this topic increases the chances of ranking higher in the SERP for our target keywords</p>
+                        <p class="violet">After an in-depth keyword analysis on gifts for new grads, I found out that there are two peaks throughout the year when the search volume doubles the annual average reaching approximately 12k both in July and October. In Italy, these are the two most common times in the year for graduations, and the seasonality of the search volume is key to increasing organic traffic in the month of July (when the website traffic is at its lowest); whereas it would bring additional traffic in October when sessions start increasing before Black Friday. Also, I found out that the highest-ranking pages in the SERP are blog articles about gift ideas, but the content is unrelated to tech devices. And I realized that there's great business potential with very little SEO competition</p><br></br><p class="violet">A topic cluster about gifts for new graduates allows for a much wider semantic network as compared to a topic cluster that focuses on a specific product. Similarly to clusters built for events throughout the year, from an SEO perspective this specific type of cluster allows for keyword diversification, and at the same time, from a marketing standpoint, it represents a great opportunity for product diversification. In this case, articles and buying guides can be customized depending on the different professional pathways or studies taken up by graduating students. Especially from an SEO perspective, the potential for original and diversified SEO content on this topic increases the chances of ranking higher in the SERP for our target keywords</p>
                     <br></br>
                 </div>
             </section>
